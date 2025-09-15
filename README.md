@@ -26,15 +26,16 @@ The configuration is modular, parameterized with variables, and allows easy cust
 
 ### 1. Main Terraform File
 *(Defines the VM configuration)*  
-<img src="images">
+<img src="images/Main 1.png">
+<img src="images/Main 2.png">
 
 ### 2. Variables Definition
 *(Reusable input variables for flexibility)*  
-<img src="images">
+<img src="images/Variable.png">
 
 ### 3. Terraform Variables File
 *(Custom values for VM configuration)*  
-<img src="images">
+<img src="images/terraformtfvars.png">
 
 
 ---
