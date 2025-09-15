@@ -60,8 +60,8 @@ The configuration is modular, parameterized with variables, and allows easy cust
 
 ## 🧰 Technologies
 
-Terraform
-Cloud Provider (Azure)
+1. Terraform
+2. Cloud Provider (Azure)
 
 ## ✅ Conclusion
 
