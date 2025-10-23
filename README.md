@@ -1,31 +1,30 @@
 # ☁️ Terraform VM Provisioning
 
 ## 📌 Project Overview
-This project demonstrates provisioning a **Virtual Machine** using **Terraform**, applying Infrastructure as Code (IaC) practices.  
-The configuration is modular, parameterized with variables, and allows easy customization via `terraform.tfvars`.
+This project demonstrates provisioning a Virtual Machine (VM) using Terraform, leveraging Infrastructure as Code (IaC) best practices. The infrastructure configuration is modular and parameterized with variables, allowing easy customization through the terraform.tfvars file.
 
 ---
 
 ## 🛠 Features
 - Automated VM creation with Terraform  
-- Parameterized variables for flexibility  
-- Clean teardown of resources  
-- Reproducible infrastructure setup  
+- Parameterized input variables for flexibility and reuse
+- Clean teardown of infrastructure resources
+- Reproducible and consistent infrastructure setups 
 
 ---
 
 ## 📂 Repository Structure
-    main.tf # Core VM configuration
-    variables.tf # Input variables for the VM
-    terraform.tfvars # Variable values
-    images/ # Screenshots of the setup
+    main.tf — Core VM configuration and resource definitions
+    variables.tf — Input variable declarations for reusable parameters
+    terraform.tfvars — Variable values for custom configuration
+    images/  — Screenshots showing the setup and configuration
 
 ---
 
 ## 📸 Screenshots
 
 ### 1. Main Terraform File
-*(Defines the VM configuration)*  
+*(Defines the core VM infrastructure)*  
 <img src="images/Main 1.png">
 <img src="images/Main 2.png">
 
@@ -34,7 +33,7 @@ The configuration is modular, parameterized with variables, and allows easy cust
 <img src="images/Variable.png">
 
 ### 3. Terraform Variables File
-*(Custom values for VM configuration)*  
+*(Custom values for VM parameters)*  
 <img src="images/terraformtfvars.png">
 
 
@@ -46,7 +45,7 @@ The configuration is modular, parameterized with variables, and allows easy cust
    ```bash
    terraform init
 
-2. **Preview Changes**
+2. **Preview Infrastructure Changes**
     ```bash
     terraform plan
 
@@ -65,5 +64,4 @@ The configuration is modular, parameterized with variables, and allows easy cust
 
 ## ✅ Conclusion
 
-This project showcases how Terraform can be used to define and manage infrastructure in a declarative and reusable way.
-It highlights the power of IaC (Infrastructure as Code) for VM provisioning, making deployments more consistent and automated.
+This project highlights how Terraform can be utilized to define and manage VM infrastructure declaratively and modularly. It emphasizes the power of Infrastructure as Code (IaC) principles to achieve automated, consistent, and reproduciable deployments.
